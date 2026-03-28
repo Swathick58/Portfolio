@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Swathi Portfolio</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Swathi</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- DARK MODE -->
+<button class="toggle" onclick="toggleMode()">🌙</button>
+
+<!-- HERO -->
+<section class="hero">
+    <img src="profile.jpeg" class="profile">
+    <h1>Hi, I'm <span>Swathi</span></h1>
+    <p id="typing"></p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Computer Science graduate passionate about AI, Web Development and solving real-world problems.
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="container">
+
+        <div class="card featured">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Resume Screening</h3>
+            <p>ML + NLP system for resume filtering</p>
+            <p><b>GitHub:</b></p>
+            <a href="https://github.com/Swathick58" target="_blank">View Code</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Glaucoma Detection</h3>
+            <p>CNN model with 90%+ accuracy</p>
+            <p><b>GitHub:</b></p>
+            <a href="https://github.com/Swathick58" target="_blank">View Code</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Smart Irrigation</h3>
+            <p>IoT automated irrigation system</p>
+            <p><b>GitHub:</b></p>
+            <a href="https://github.com/Swathick58" target="_blank">View Code</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <p><i class="fa-brands fa-cuttlefish"></i> C++ (DSA)</p>
+    <div class="bar"><div class="fill" style="width:85%"></div></div>
+
+    <p><i class="fa-brands fa-python"></i> Python</p>
+    <div class="bar"><div class="fill" style="width:85%"></div></div>
+
+    <p><i class="fa-brands fa-js"></i> JavaScript</p>
+    <div class="bar"><div class="fill" style="width:80%"></div></div>
+
+    <p><i class="fa-brands fa-react"></i> React</p>
+    <div class="bar"><div class="fill" style="width:75%"></div></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: swathi.1si22cs411@gmail.com</p>
+    <p>
+        <a href="https://www.linkedin.com/in/swathi-c-k-71bb68313/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Swathick58" target="_blank">GitHub</a>
+    </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

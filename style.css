@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: white;
+    background: linear-gradient(-45deg, #1e3a8a, #9333ea, #0ea5e9, #9333ea);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+/* BACKGROUND ANIMATION */
+@keyframes gradient {
+    0% {background-position: 0%}
+    50% {background-position: 100%}
+    100% {background-position: 0%}
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PROFILE IMAGE */
+.profile {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #facc15;
+}
+
+/* BUTTON */
+.btn {
+    background: #facc15;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* CARDS */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.featured {
+    border: 2px solid #facc15;
+}
+
+/* PROJECT LINK */
+.card a {
+    color: #facc15;
+    font-weight: bold;
+}
+
+/* SKILLS */
+.bar {
+    width: 70%;
+    background: #333;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.fill {
+    height: 10px;
+    background: #facc15;
+}
+
+/* ICON */
+i {
+    margin-right: 8px;
+}
+
+/* DARK MODE */
+.toggle {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    padding: 10px;
+}
+
+.light {
+    background: white;
+    color: black;
+}
